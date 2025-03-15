@@ -1,9 +1,13 @@
 services:
   - type: web
-    name: doctor-survey
+    name: doctor-survey-app
     runtime: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "streamlit run app.py"
+    buildCommand: |
+      pip install -r requirements.txt
+    startCommand: |
+      cd src && streamlit run app.py
     envVars:
       - key: PYTHON_VERSION
         value: 3.9.16
+      - key: STREAMLIT_SERVER_HEADLESS
+        value: true
