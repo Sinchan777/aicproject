@@ -38,4 +38,8 @@ def preprocess_data(input_path, output_path):
     return samples_df
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     preprocess_data('data/doctors.csv','data/processed.csv')
+=======
+    preprocess_data('data/doctors.csv','data/processed.csv')
+>>>>>>> e377d25 (fin.)
