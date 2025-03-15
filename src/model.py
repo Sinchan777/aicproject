@@ -32,8 +32,4 @@ def train_model(data_path, model_save_path):
     return model
 
 if __name__ == '__main__':
-<<<<<<< HEAD
     train_model('data/processed.csv','models/model.pkl')
-=======
-    train_model('data/processed.csv','models/model.pkl')
->>>>>>> e377d25 (fin.)
