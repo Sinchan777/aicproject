@@ -38,4 +38,4 @@ def preprocess_data(input_path, output_path):
     return samples_df
 
 if __name__ == "__main__":
-    preprocess_data('/home/sinchan/aicproject/data/doctors.csv','/home/sinchan/aicproject/data/processed.csv')
+    preprocess_data('data/doctors.csv','data/processed.csv')
